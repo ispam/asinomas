@@ -1,11 +1,8 @@
 source 'https://rubygems.org'
-
-source 'https://rails-assets.org' do
-  gem 'rails-assets-zurb--foundation-sites'
-end
+# ruby "2.2.0"
+gem 'gmaps4rails'
+gem 'foundation-rails', '~> 6.1', '>= 6.1.1.0'
 gem "administrate", "~> 0.1.2"
-gem 'bundler', '>= 1.8.4'
-ruby "2.2.0"
 gem "font-awesome-rails"
 # gem 'rails-i18n', github: 'svenfuchs/rails-i18n', branch: 'master'
 gem "figaro"
